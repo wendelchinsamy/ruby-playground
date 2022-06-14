@@ -4,9 +4,7 @@
 
 def fizz_buzz
   sum = 0
-  (1..999).each do |x|
-    sum += x if (x % 3).zero? || (x % 5).zero?
-  end
+  (1..999).each { |x| sum += x if (x % 3).zero? || (x % 5).zero? }
   sum
 end
 

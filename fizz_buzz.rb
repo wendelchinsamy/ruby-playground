@@ -7,5 +7,3 @@ def fizz_buzz
   (1..999).each { |x| sum += x if (x % 3).zero? || (x % 5).zero? }
   sum
 end
-
-puts fizz_buzz

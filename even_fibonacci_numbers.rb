@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # https://projecteuler.net/problem=2
 
 def even_fibonacci_numbers
